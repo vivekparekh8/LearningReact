@@ -1,11 +1,15 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import Header from "./Header";
+import Footer from "./Footer"
+
 export default class Layout extends React.Component{
 	render(){
 		const name = "Vivek";
 		return(
-
-			<h1>Hello All, its {name} here</h1>
+			<div>
+				<Header />
+				<Footer />
+			</div>
 		);
 	}
 }

@@ -5,4 +5,4 @@ Learn React.js from scratch.
 
 * Transpiling  - Babeljs
 * Components always output only one html element
-* Anything in curly braces {} inside jsx i.e. return (...) will be executed as js
+* Anything in curly braces {} inside jsx i.e. return (...) will be executed as js, self executing anonymous function, invoke class methods, have a constructor in class
