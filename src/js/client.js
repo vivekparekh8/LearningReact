@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import AboutMe from "./components/Pages/AboutMe";
 import ContactUs from "./components/Pages/ContactUs";
 import Resume from "./components/Pages/Resume";
+import Repos from "./components/Pages/Repos";
 import Bootstrap from "../../vendor/bootstrap-without-jquery";
 
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
@@ -15,6 +16,7 @@ ReactDOM.render(<Router history={hashHistory}>
 			<IndexRoute component={AboutMe}></IndexRoute>
 			<Route path="resume" component={Resume}></Route>
 			<Route path="contactus" component={ContactUs}></Route>
+			<Route path="repos/(:repo)" component={Repos}></Route>
 		</Route>
-		
+
 	</Router>, app);
